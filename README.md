@@ -1,5 +1,6 @@
 # re-stl
 
+# Intro 
 RE-STL is a library of robust Regular Expressions written for the re2 regex engine.
 
 These are high quality Regular Expressions intended to satisfy the following requirements:
@@ -11,3 +12,6 @@ For the purpose of
 - Securing external-facing interfaces
 - Validating external, untrusted inputs
 - Assuring object purified construction of primitives, like IP Addresses and Hostnames
+
+## Building 
+`bazel run //src:re2_demo --action_env=BAZEL_CXXOPTS="-std=c++20"`

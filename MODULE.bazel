@@ -1,0 +1,3 @@
+module(name = "re2_demo", version = "0.1")
+
+bazel_dep(name = "re2", version = "2024-07-02")
